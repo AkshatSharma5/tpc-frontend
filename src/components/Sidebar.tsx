@@ -15,7 +15,7 @@ import { RecruiterDropDown } from "./SideBar/DropDowns/RecuiterDropDown";
 import AdminDashboard from "./SideBar/Roles/admin";
 import StudentDashboard from "./SideBar/Roles/student";
 import RecruiterDashboard from "./SideBar/Roles/recruiter";
-import { getCookies, setCookie, deleteCookie, getCookie } from 'cookies-next';
+import {setCookie} from "cookies-next";
 
 interface Framework {
   value: string;
